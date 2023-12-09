@@ -24,7 +24,6 @@ return (
       <SubjectCards/>
       <SubjectCards/>
       <SubjectCards/>
-        {/* Add more cards with similar structure */}
       </main>
       </div>
       <FunctionalCards />

@@ -12,14 +12,14 @@ const Layout = () => {
     {/* Dashboard Layout */}
     <div className="flex h-screen">
       <Sidebar />
-      <main className="w-1/2 flex justify-center items-center">
+       <div className="flex-grow flex justify-center items-center">
         <Leaderboard />
-      </main>
+      </div>
+      <div className="flex-shrink-0">
       <FunctionalCards />
+      </div>
     </div>
   </div>
 );
-
 };
-
 export default Layout;

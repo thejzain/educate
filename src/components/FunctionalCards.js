@@ -1,15 +1,12 @@
 import React from 'react';
-
+import SideCards from './SideCards'
 const FunctionalCards = () => {
   return (
     <section className="w-1/3 bg-gray-200 p-4">
-      <div className="grid grid-cols-1 gap-4">
-        {/* Functional Cards */}
-        <div className="bg-white p-4">
-          {/* Card 1 - Functionality 1 */}
-          Functionality 1
-        </div>
-        {/* Add more cards for different functionalities */}
+      <div className="grid grid-cols-1 gap-4 w-full bg-gray-200 p-4">
+        <SideCards/>
+        <SideCards/>
+        <SideCards/>
       </div>
     </section>
   );

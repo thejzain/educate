@@ -3,8 +3,9 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 
+
 const SignIn = () => {
-    const router = useRouter()
+  const router = useRouter()
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -32,7 +33,7 @@ const SignIn = () => {
             type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-            className="w-full border border-gray-300 rounded px-3 py-2 text-black"
+            className="button drop-shadow-md hover:drop-shadow-xl w-full border bg-transparent rounded-lg px-3 py-2 text-white"
             required
           />
         </div>
@@ -42,14 +43,15 @@ const SignIn = () => {
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="w-full border border-gray-300 rounded px-3 py-2 text-black"
+              className="button w-full border bg-transparent rounded px-3 py-2 text-black"
               required
             />
           </div>
           <button
             onClick={() => router.push('/dashboard')}
             type="submit"
-            className="w-full bg-gray-500 text-white rounded px-4 py-2">
+            className=" button w-full bg-transparent text-white rounded px-4 py-2"
+          >
             Login
           </button>
         </form>

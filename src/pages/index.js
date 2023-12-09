@@ -2,12 +2,12 @@
 
 import SignIn from '../components/SignIn';
 import SignInPage from './signin';
-import DashboardPage from './dashboard';
+//import styles from "./styles/button.css";
 
 export default function Home() {
   return (
     <div>
-        <SignInPage/>
+    <SignInPage/>
     </div>
   );
 }

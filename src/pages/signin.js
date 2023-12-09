@@ -1,4 +1,3 @@
-// pages/signin.js
 
 import SignIn from '../components/SignIn';
 

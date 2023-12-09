@@ -5,6 +5,8 @@ import FunctionalCards from './FunctionalCards';
 
 const Layout = () => {
 
+
+
   return (
   <div>
     <div style={{ height: 'full' }} className="font-bold bg-white">

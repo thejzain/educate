@@ -7,7 +7,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ['Inter', 'sans-serif'],
+      sans: ['Prompt', 'sans-serif'],
     },
     extend: {
       backgroundImage: {

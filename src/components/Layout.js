@@ -6,22 +6,20 @@ import FunctionalCards from './FunctionalCards';
 const Layout = () => {
   return (
   <div>
-    {/* Login Section */}
-    <div style={{ height: '150px' }} className="font-bold bg-white">
+    <div style={{ height: 'full' }} className="font-bold bg-white">
       <h1 className="text-2xl font-bold "></h1>
     </div>
-
     {/* Dashboard Layout */}
     <div className="flex h-screen">
       <Sidebar />
-      <main className="w-1/2 flex justify-center items-center">
+       <div className="flex-grow flex justify-center items-center">
         <Leaderboard />
-      </main>
+      </div>
+      <div className="flex-shrink-0">
       <FunctionalCards />
+      </div>
     </div>
   </div>
 );
-
 };
-
 export default Layout;

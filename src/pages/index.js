@@ -3,12 +3,13 @@
 import SignIn from '../components/SignIn';
 import SignInPage from './signin';
 import DashboardPage from './dashboard';
+import AttendancePage from './attendance';
 
 export default function Home() {
   return (
     <div>
-     <DashboardPage/>
-//      <SignInPage/>
+    <AttendancePage/>
+<SignInPage/>
     </div>
   );
 }

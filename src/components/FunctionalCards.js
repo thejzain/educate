@@ -9,10 +9,6 @@ const FunctionalCards = () => {
           {/* Card 1 - Functionality 1 */}
           Functionality 1
         </div>
-        <div className="bg-white p-4">
-          {/* Card 2 - Functionality 2 */}
-          Functionality 2
-        </div>
         {/* Add more cards for different functionalities */}
       </div>
     </section>

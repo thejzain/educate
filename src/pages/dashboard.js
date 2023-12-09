@@ -1,9 +1,9 @@
 // pages/dashboard.js
 import React from 'react';
-import Dashboard from '../components/Layout';
+import Layout from '../components/Layout';
 const DashboardPage = () => {
   return (
-    <Dashboard />
+    <Layout />
   );
 };
 export default DashboardPage;

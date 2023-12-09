@@ -2,21 +2,12 @@
 
 import SignIn from '../components/SignIn';
 import SignInPage from './signin';
-<<<<<<<<< Temporary merge branch 1
-export default function Home() {
-  return (
-    <div>
-    <SignInPage/>
-=========
-import DashboardPage from './dashboard';
-import AttendancePage from './attendance';
+//import styles from "./styles/button.css";
 
 export default function Home() {
   return (
     <div>
-    <AttendancePage/>
-<SignInPage/>
->>>>>>>>> Temporary merge branch 2
+    <SignInPage/>
     </div>
   );
 }

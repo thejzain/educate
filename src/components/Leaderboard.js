@@ -1,10 +1,11 @@
 import React from 'react';
-
+import Profile from './Profile.js';
 const Leaderboard = () => {
   return (
-    <div className="bg-white p-48">
-      {/* Leaderboard Content */}
-      Leaderboard
+    <div>
+    <div className="button bg-transparent p-[400px] ml-8 ">
+      <Profile/>
+    </div>
     </div>
   );
 };

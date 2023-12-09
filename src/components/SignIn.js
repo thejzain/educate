@@ -1,12 +1,13 @@
 // SignIn.js
 
 import { useState } from 'react';
+import { useRouter } from 'next/router';
 
 const SignIn = () => {
+    const router = useRouter()
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     // Add your authentication logic here (e.g., using an API call)
@@ -46,6 +47,7 @@ const SignIn = () => {
             />
           </div>
           <button
+            onClick={() => router.push('/dashboard')}
             type="submit"
             className="w-full bg-blue-500 text-white rounded px-4 py-2"
           >
@@ -56,5 +58,4 @@ const SignIn = () => {
     </div>
   );
 };
-
 export default SignIn;

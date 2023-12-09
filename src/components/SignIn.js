@@ -49,8 +49,7 @@ const SignIn = () => {
           <button
             onClick={() => router.push('/dashboard')}
             type="submit"
-            className="w-full bg-gray-500 text-white rounded px-4 py-2"
-          >
+            className="w-full bg-gray-500 text-white rounded px-4 py-2">
             Login
           </button>
         </form>

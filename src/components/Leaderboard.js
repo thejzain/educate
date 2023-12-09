@@ -3,7 +3,10 @@ import Profile from './Profile.js';
 const Leaderboard = () => {
   return (
     <div>
-    <div className="button bg-transparent p-[400px] ml-8 ">
+    <div><h1>Status Board</h1></div>
+    <div className="button bg-transparent p-[200px] m-8 ">
+      <Profile/>
+      <Profile/>
       <Profile/>
     </div>
     </div>

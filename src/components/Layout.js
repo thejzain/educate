@@ -12,7 +12,7 @@ const Layout = () => {
     {/* Dashboard Layout */}
     <div className="flex h-screen">
       <Sidebar />
-       <div className="flex-grow flex justify-center items-center">
+       <div className="flex ">
         <Leaderboard />
       </div>
       <div className="flex-shrink-0">

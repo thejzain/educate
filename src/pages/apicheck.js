@@ -1,10 +1,10 @@
-import React from 'react';
-import ApiStoreCheck from '../components/apistorecheck';
+ import React from 'react';
+ import ApiStoreCheck from '../components/apistorecheck';
 
-const apistorecheck = () => {
-  return (
-    <ApiStoreCheck />
-  );
-};
+ const apistorecheck = () => {
+   return (
+     <ApiStoreCheck />
+   );
+ };
 
-export default apistorecheck;
+ export default apistorecheck;

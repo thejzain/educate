@@ -10,8 +10,8 @@ const signAuthMessage = async(privateKey, verificationMessage) =>{
 
 const getApiKey = async() =>{
   const wallet = {
-    publicKey: 'YOUR_PUBLIC_KEY', // Ex: '0xEaF4E24ffC1A2f53c07839a74966A6611b8Cb8A1'
-    privateKey: 'WALLET_PRIVATE_KEY'
+    publicKey: process.env.YOUR_PUBLIC_KEY, // Ex: '0xEaF4E24ffC1A2f53c07839a74966A6611b8Cb8A1'
+    privateKey:process.env.WALLET_PRIVATE_KEY
   }
   const verificationMessage = (
     await axios.get(
@@ -20,7 +20,8 @@ const getApiKey = async() =>{
   ).data
   const signedMessage = await signAuthMessage(wallet.privateKey, verificationMessage)
   const response = await lighthouse.getApiKey(wallet.publicKey, signedMessage)
-  console.log(response)
+  console.log(response )
+  return response
 }
 
 export default getApiKey;

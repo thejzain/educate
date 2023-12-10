@@ -1,9 +1,12 @@
 # Educate 
 - [Arbitrum repo](https://github.com/thejzain/educate-contract)
+----
+## Scroll Deployment
+- contract address : `0x6550b480d5aA1Bcb114462599062de79EE5180aF`
+- scroll etherscan address : https://sepolia.etherscan.io/address/0x6550b480d5aA1Bcb114462599062de79EE5180aF
 
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+----
 ## Getting Started
 
 First, run the development server:
